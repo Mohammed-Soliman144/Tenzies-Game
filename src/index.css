@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Karla", sans-serif;
+  background-color: #0B2434;
+}
+
+
+div#root {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+
+
+html, body, div#root {
+  height: 100%;
+  width: 100%;
+}
